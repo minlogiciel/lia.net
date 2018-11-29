@@ -1,11 +1,8 @@
+<?php include_once (includes_path()."class_names.inc"); ?>
 <div class="content">
     <div class="left">
     	<div class="left_box">
-
-			<?php 
-				//include_once('upload_form.php'); 
-				include_once('homework_list.php'); 
-			?>
+			<?php include_once('email_form.php'); ?>
         </div>
 	</div>
 	

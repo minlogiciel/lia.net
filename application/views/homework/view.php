@@ -1,11 +1,7 @@
 <div class="content">
     <div class="left">
     	<div class="left_box">
-
-			<?php 
-				//include_once('upload_form.php'); 
-				include_once('homework_list.php'); 
-			?>
+    		<?php include_once('homework_list.php'); ?>
         </div>
 	</div>
 	

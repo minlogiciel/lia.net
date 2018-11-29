@@ -748,6 +748,24 @@ div, dl, dt, dd, ul, ol, li, p, h1, h2, h3, h4, h5, h6 { margin:0; padding:0; }
 .bar_center{float:left;width:100px;display:inline;color: #fff;  background:url('header_barre_fond.gif') repeat-x;}
 .bar_right{float:right;width:100px;display:inline;text-align:right;color: #00386b;  background:url('header_barre_fond.gif') repeat-x;}
 
+.form_line_title{width:648px;height:25px;padding-top:10px;COLOR:#FFFFFE;BACKGROUND-COLOR:#00386b; TEXT-TRANSFORM: uppercase;text-align:center;FONT-SIZE: 12px; margin:0 auto;}
+.form_line{position:relative;width:648px;overflow:hidden; text-align:center;padding-top:10px;FONT-SIZE: 12px; margin:0 auto;}
+.form_line_border{position:relative;width:648px;height:2px;BACKGROUND-COLOR:#00386b;margin:0 auto;}
+.form_label{float:left;width:120px;height:20px;COLOR: #006699;font-weight:bold;PADDING-RIGHT: 8px; text-align:right}
+.form_content{float:right;width:520px;display:inline;text-align:left;color: #00386b; }
+.form_span1{float:left;width:140px;height:18px;margin-left:40px;COLOR: #000;font-weight:bold; text-align:left}
+.form_span2{float:left;width:140px;height:18px;COLOR: #000;font-weight:bold;PADDING-RIGHT: 8px; text-align:left}
+.form_span3{float:left;width:140px;height:18px;COLOR: #000;font-weight:bold;PADDING-RIGHT: 8px; text-align:left}
+.form_span4{float:right;width:140px;height:18px;COLOR: #000;font-weight:bold;PADDING-RIGHT: 8px; text-align:left}
+
+.login_box{position:relative;width:350px;padding:40px;float:right;right:100px;TEXT-ALIGN:left;background-color:#fff;font-weight:bold;FONT-SIZE:12px;border:1px solid #CACACA;}
+.login_line_field{text-align:left;font-weight:bold;FONT-SIZE:14px;COLOR: #006699;}
+.login_buttton {BORDER: #405fa4 1px solid; PADDING:4px;FONT-SIZE:16px;font-weight:bold;COLOR: #0000FF; BACKGROUND: #ddeaf4;TEXT-ALIGN:center;TEXT-DECORATION:none;
+	LINE-HEIGHT:25px;VERTICAL-ALIGN: middle;CURSOR: hand;WHITE-SPACE:nowrap;width:200px;
+}
+.login_fields {FONT-SIZE:14px; COLOR: #006699;TEXT-ALIGN:left;BORDER: #405fa4 1px solid;PADDING:2px;HEIGHT:30px;
+}
+
 
 .content{position:relative;width:950px;overflow:hidden;padding:10px 0;background-color:#f6f6ee; margin:0 auto;}
 
@@ -850,8 +868,8 @@ h6{ border-bottom:1px solid #dedede; margin-left:15px;text-align:left!important;
 .box_tit1_text2{height:400;width:300px;position:absolute;float:right;display:inline;padding-top:10px;margin-right:10px}
 
 
-.left_box1{width:648px;border:1px solid #cacaca;margin-bottom:12px;background-color:#fff;padding-bottom:15px;overflow:hidden; position:relative;border-top:2px solid #c30000;}
-.left_box{width:648px;border:1px solid #cacaca;margin-bottom:12px;background-color:#fff;padding-bottom:15px;overflow:hidden; position:relative;}
+.left_box1{width:648px;border:1px solid #cacaca;margin-bottom:12px;background-color:#fff;padding-bottom:15px; position:relative;border-top:2px solid #c30000;}
+.left_box{width:648px;border:1px solid #cacaca;margin-bottom:12px;background-color:#fff;padding-bottom:15px; position:relative;}
 .box_tit{background:url(tit_bg.jpg) repeat-x;width:648px;position:relative;}
 .box_tit h2{margin:0 15px;height:25px;line-height:25px;padding-top:10px;padding-bottom:5px;overflow:hidden;color:red;font-weight:bold;font-size:14px;border-bottom:#bcb778 1px dashed}
 .box_tit h3{margin:0 15px;height:25px;line-height:25px;padding-top:10px;overflow:hidden;color:#333;font-weight:bold;font-size:16px;border-bottom:2px solid #c30000;}

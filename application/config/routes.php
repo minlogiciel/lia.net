@@ -55,8 +55,12 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 */
 
-
+$route['register'] = 'register';
+$route['register/(:any)'] = 'register/view/$1';
+$route['signin'] = 'signin';
+$route['signin/(:any)'] = 'signin/view/$1';
 $route['email'] = 'email';
+$route['email/send'] = 'email/send';
 $route['email/(:any)'] = 'email/view/$1';
 $route['students'] = 'students';
 $route['students/(:any)'] = 'students/view/$1';

@@ -11,12 +11,12 @@ $MITEM = array(
     "Home",				"home",
     "About Us",			"about",
 	"Homework",			"homework", 
-	"Class Schedule",	"schedule",
+	"Class Schedule",	"email",
     "Forum",			"forum", 
-	"Sign on",			"member", 
-	"Register",			"member/register.php", 
+	"Sign In",			"signin", 
+	"Register",			"register", 
 //	"Teacher Account",	"../teacher/", 
-	"Logout",			"member/logout.php", 
+	"Logout",			"logout", 
 );
 
 $lnews = "";
